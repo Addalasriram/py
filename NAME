@@ -1,0 +1,20 @@
+# Print a message
+print("Hello, world!")
+
+# Variables
+name = "Alice"
+age = 25
+
+# Conditional
+if age >= 18:
+    print(name, "is an adult")
+
+# Loop
+for i in range(5):
+    print(i)
+
+# Function
+def greet(person):
+    return "Hello " + person
+
+print(greet("Bob"))
